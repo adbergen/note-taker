@@ -7,6 +7,11 @@ const app = express();
 // sets initial port
 var PORT = process.env.PORT || 8080;
 
+// handle parsing
+app.use(express.static("./public"));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
 // routes
 require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
