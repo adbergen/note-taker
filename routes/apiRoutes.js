@@ -30,7 +30,7 @@ module.exports = function (app) {
     });
 
     app.delete("/api/notes/:id", function (req, res) {
-        const notes = JSON.parse(fs.readFileSync(".db/db.json"));
+        const notes = JSON.parse(fs.readFileSync("./db/db.json"));
         let id = req.params.id;
 
         let deleteNote = notes.filter(notes => notes.id != id);
