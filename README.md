@@ -1,74 +1,80 @@
-# Note-Taker
+<h1 align="center">
+Note Taker
+</h1>
+<h4 align="center" style="margin-bottom:10px">Be sure to star my configuration repo so you can keep up to date on any daily progress!</h4>
+<div align="center">
+  <h4>
+    </a>
+    <a href="https://github.com/adbergen/note-taker/stargazers"><img src="https://img.shields.io/github/stars/adbergen/note-taker.svg?style=plasticr"/></a>
+    <a href="https://github.com/adbergen/note-taker/commits/master"><img src="https://img.shields.io/github/last-commit/adbergen/note-taker.svg?style=plasticr"/></a>
+        <a href="https://github.com/adbergen/note-taker/commits/master"><img src="https://img.shields.io/github/commit-activity/y/adbergen/note-taker.svg?style=plasticr"/></a>
+</h4>
+<br>
+</div>
+<p align="center"><font size="3">
+This is a note taking application</p>
+<div align="center"><a name="menu"></a>
+  <h4>
+    <a href="https://github.com/adbergen/note-taker">
+      Github Repository
+    </a>
+<span> | </span>
+<a href="https://warm-tundra-16690.herokuapp.com/">
+      Heroku Deployment
+    </a>
+  </h4>
+</div>
 
+![Screenshot of application demo](public/assets/img/demo.png)
 
-- This is a Note Taker application that uses an express backend to save and retrieve note data from a JSON file. The user is able to write, save, and delete notes to organize their thoughts and keep track of tasks.
+<hr>
 
----
+## Table of Contents
 
-[Heroku Deployment Link](https://warm-tundra-16690.herokuapp.com/)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
 
-![image of demo](/public/assets/img/demo.png)
+<hr>
 
-## File Contents
+## Installation
 
-```
-- README.md (this file)
+<br>
+Using npm:
 
-- app.js
+<br>
+<br>
 
-- server.js
+    npm install && npm start
 
-- apiRoutes.js
+<hr>
 
-- htmlRoutes.js
+## Usage
 
-- index.html
+- This application allows users to create and save notes
+- This application allows users to view previously saved notes
+- This application allows users to delete previously saved notes
 
-- notes.html
+<hr>
 
-- styles.css
+## Technologies
 
-- package.json
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap</li>
+<li>Javascript, JQuery, JSON</li>
+<li>Node.js, express.js</li>
+<li>GitHub</li>
+</ul>
 
-- package-lock.json
+<hr>
 
-- db.json
+## Contributing
 
-- .gitignore
+- Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-- demo.png
+- Contributors: Anthony Bergen
 
-```
-
----
-
-## Languages Used
-
-```
-- node.js is used as the runtime environment
-
-- Javascript, JQuery, and JSON are used as the interpreters
-
-- express.js is used as a back-end component to establish a server and router for the application
-
-```
-
----
-
-## Requirements Met
-
-```
-- Functional, deployed application to Heroku
-
-- GitHub repository with README describing the project
-
-- Application allows users to create and save notes
-
-- Application allows users to view previously saved notes
-
-- Application allows users to delete previously saved notes
-
-```
-
----
----
+<hr><hr>
